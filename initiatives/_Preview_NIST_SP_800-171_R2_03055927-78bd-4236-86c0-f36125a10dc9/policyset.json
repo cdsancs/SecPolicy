@@ -2,7 +2,7 @@
  "properties": {
   "displayName": "[Preview]: NIST SP 800-171 R2",
   "policyType": "BuiltIn",
-  "description": "This initiative includes audit and virtual machine extension policies that address a subset of NIST SP 800-171 R2 requirements. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/nist800171r2-blueprint.",
+  "description": "This CUSTOM AIA Australia initiative includes audit and virtual machine extension policies that address a subset of NIST SP 800-171 R2 requirements. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/nist800171r2-blueprint.",
   "metadata": {
    "version": "5.0.1-preview",
    "category": "Regulatory Compliance",
