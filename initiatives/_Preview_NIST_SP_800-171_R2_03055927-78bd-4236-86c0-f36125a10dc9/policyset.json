@@ -88,7 +88,7 @@
      "displayName": "[Preview]: Latest Java version",
      "description": "Latest supported Java version for App Services"
     },
-    "defaultValue": "11"
+    "defaultValue": "10"
    },
    "WindowsPythonLatestVersionForAppServices": {
     "type": "String",
@@ -97,7 +97,7 @@
      "description": "Latest supported Python version for App Services",
      "deprecated": true
     },
-    "defaultValue": "3.6"
+    "defaultValue": "3.5"
    },
    "linuxPythonLatestVersionForAppServices": {
     "type": "String",
