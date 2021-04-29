@@ -1,0 +1,59 @@
+{
+ "properties": {
+  "displayName": "AIA APRA",
+  "policyType": "Custom",
+  "metadata": {
+   "createdBy": "f1727316-45bc-484f-b616-d45f015506c7",
+   "createdOn": "2021-04-29T06:06:22.951477Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Storage accounts should restrict network access using virtual network rules_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a1a9cdf-e04d-429a-8416-3bfb72a1b26f",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Secure transfer to storage accounts should be enabled_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should have infrastructure encryption_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4733ea7b-a883-42fe-8cac-97454c2a9e4a",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "[Preview]: Storage account public access should be disallowed_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4fa4b6c0-31ca-4c0d-b10d-24b96f62a751",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage Accounts should use a virtual network service endpoint_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/60d21c4f-21a3-4d94-85f4-b924e6aeeda4",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should use customer-managed key for encryption_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6fac406b-40ca-413b-bf8e-0bf964659c25",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": [
+   {
+    "name": "AIA AU APRA"
+   }
+  ]
+ },
+ "id": "/subscriptions/b1b7d691-79cc-414b-9101-d6a103a22ada/providers/Microsoft.Authorization/policySetDefinitions/31d6c009a7764c72ad0acb83",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "31d6c009a7764c72ad0acb83"
+}
