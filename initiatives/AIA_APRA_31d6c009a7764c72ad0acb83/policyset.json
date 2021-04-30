@@ -2,49 +2,78 @@
  "properties": {
   "displayName": "AIA APRA",
   "policyType": "Custom",
+  "description": "",
   "metadata": {
    "createdBy": "f1727316-45bc-484f-b616-d45f015506c7",
    "createdOn": "2021-04-29T06:06:22.951477Z",
-   "updatedBy": null,
-   "updatedOn": null
+   "updatedBy": "f1727316-45bc-484f-b616-d45f015506c7",
+   "updatedOn": "2021-04-30T05:57:10.8283578Z"
   },
-  "parameters": {},
+  "parameters": {
+   "SNOWReference": {
+    "type": "string",
+    "metadata": {
+     "displayName": "Service NOW CR"
+    },
+    "defaultValue": "00000000"
+   }
+  },
   "policyDefinitions": [
    {
     "policyDefinitionReferenceId": "Storage accounts should restrict network access using virtual network rules_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2a1a9cdf-e04d-429a-8416-3bfb72a1b26f",
     "parameters": {},
-    "groupNames": []
+    "groupNames": [
+     "AIA AU APRA"
+    ]
    },
    {
     "policyDefinitionReferenceId": "Secure transfer to storage accounts should be enabled_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/404c3081-a854-4457-ae30-26a93ef643f9",
     "parameters": {},
-    "groupNames": []
+    "groupNames": [
+     "AIA AU APRA"
+    ]
    },
    {
     "policyDefinitionReferenceId": "Storage accounts should have infrastructure encryption_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4733ea7b-a883-42fe-8cac-97454c2a9e4a",
     "parameters": {},
-    "groupNames": []
+    "groupNames": [
+     "AIA AU APRA"
+    ]
    },
    {
     "policyDefinitionReferenceId": "[Preview]: Storage account public access should be disallowed_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4fa4b6c0-31ca-4c0d-b10d-24b96f62a751",
     "parameters": {},
-    "groupNames": []
+    "groupNames": [
+     "AIA AU APRA"
+    ]
    },
    {
     "policyDefinitionReferenceId": "Storage Accounts should use a virtual network service endpoint_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/60d21c4f-21a3-4d94-85f4-b924e6aeeda4",
     "parameters": {},
-    "groupNames": []
+    "groupNames": [
+     "AIA AU APRA"
+    ]
    },
    {
     "policyDefinitionReferenceId": "Storage accounts should use customer-managed key for encryption_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6fac406b-40ca-413b-bf8e-0bf964659c25",
     "parameters": {},
-    "groupNames": []
+    "groupNames": [
+     "AIA AU APRA"
+    ]
+   },
+   {
+    "policyDefinitionReferenceId": "SQL managed instances should use customer-managed keys to encrypt data at rest_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/048248b0-55cd-46da-b1ff-39efd52db260",
+    "parameters": {},
+    "groupNames": [
+     "AIA AU APRA"
+    ]
    }
   ],
   "policyDefinitionGroups": [
