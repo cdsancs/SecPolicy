@@ -7,13 +7,14 @@
    "createdBy": "f1727316-45bc-484f-b616-d45f015506c7",
    "createdOn": "2021-04-29T06:06:22.951477Z",
    "updatedBy": "f1727316-45bc-484f-b616-d45f015506c7",
-   "updatedOn": "2021-04-30T05:57:10.8283578Z"
+   "updatedOn": "2021-05-25T23:27:23.7780574Z"
   },
   "parameters": {
    "SNOWReference": {
     "type": "string",
     "metadata": {
-     "displayName": "Service NOW CR"
+     "displayName": "Service NOW CR",
+     "description": null
     },
     "defaultValue": "00000000"
    }
@@ -74,6 +75,18 @@
     "groupNames": [
      "AIA AU APRA"
     ]
+   },
+   {
+    "policyDefinitionReferenceId": "Disk encryption should be applied on virtual machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0961003e-5a0a-4549-abde-af6a37f2724d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SQL servers should use customer-managed keys to encrypt data at rest_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0d134df8-db83-46fb-ad72-fe0c9428c8dd",
+    "parameters": {},
+    "groupNames": []
    }
   ],
   "policyDefinitionGroups": [
