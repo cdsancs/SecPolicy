@@ -83,6 +83,15 @@
     "groupNames": []
    },
    {
+    "policyDefinitionReferenceId": "Prerequisite_DeployExtensionWindows",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/385f5831-96d4-41db-9a3c-cd3af78aaae6",
+    "parameters": {},
+    "groupNames": [
+     "ISO27001-2013_A.9.4.3",
+     "ISO27001-2013_A.10.1.1"
+    ]
+   },
+   {
     "policyDefinitionReferenceId": "SQL servers should use customer-managed keys to encrypt data at rest_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0d134df8-db83-46fb-ad72-fe0c9428c8dd",
     "parameters": {},
