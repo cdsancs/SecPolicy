@@ -3,6 +3,11 @@
   "name": "A0",
   "tier": "Free"
  },
+ "identity": {
+  "principalId": "a3a89d1e-326a-4fe8-88ba-602180ba7f67",
+  "tenantId": "0cb254d4-da6a-4714-8d78-fa2d373520be",
+  "type": "SystemAssigned"
+ },
  "properties": {
   "displayName": "ISO 27001:2013",
   "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/89c6cddc-1c73-4ac1-b19c-54d1a15a42f2",
@@ -16,15 +21,17 @@
    },
    "createdBy": "f1727316-45bc-484f-b616-d45f015506c7",
    "createdOn": "2021-03-26T02:39:35.4492238Z",
-   "updatedBy": null,
-   "updatedOn": null
+   "updatedBy": "a6023909-573d-4340-ad76-f104f855e713",
+   "updatedOn": "2021-05-25T23:22:16.3388616Z",
+   "gitHubPolicy": {
+    "digest": "810a5b10d48aad5c87e1c87baf4e803202f6f469",
+    "repoName": "cdsancs/SecPolicy",
+    "commitSha": "b23d42661a84df5ae1b75b2f56723d2b4a40d318",
+    "runUrl": "https://github.com/cdsancs/SecPolicy/actions/runs/876686353",
+    "filepath": "initiatives/ISO_27001_2013_89c6cddc-1c73-4ac1-b19c-54d1a15a42f2/assign.ISO_27001_2013_549ce55a799049539d9637c9.json"
+   }
   },
   "enforcementMode": "DoNotEnforce"
- },
- "identity": {
-  "principalId": "a3a89d1e-326a-4fe8-88ba-602180ba7f67",
-  "tenantId": "0cb254d4-da6a-4714-8d78-fa2d373520be",
-  "type": "SystemAssigned"
  },
  "id": "/subscriptions/b1b7d691-79cc-414b-9101-d6a103a22ada/providers/Microsoft.Authorization/policyAssignments/549ce55a799049539d9637c9",
  "type": "Microsoft.Authorization/policyAssignments",
