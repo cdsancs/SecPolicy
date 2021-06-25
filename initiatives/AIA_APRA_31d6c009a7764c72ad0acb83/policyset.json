@@ -7,7 +7,7 @@
    "createdBy": "f1727316-45bc-484f-b616-d45f015506c7",
    "createdOn": "2021-04-29T06:06:22.951477Z",
    "updatedBy": "f1727316-45bc-484f-b616-d45f015506c7",
-   "updatedOn": "2021-06-25T03:50:31.7151582Z"
+   "updatedOn": "2021-06-25T03:55:12.2040075Z"
   },
   "parameters": {
    "SNOWReference": {
@@ -109,6 +109,12 @@
    {
     "policyDefinitionReferenceId": "Public network access on Azure SQL Database should be disabled_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1b8ca024-1d5c-4dec-8995-b1a932b41780",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Microsoft Managed Control 1372 - Incident Reporting_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/25b96717-c912-4c00-9143-4e487f411726",
     "parameters": {},
     "groupNames": []
    }
