@@ -7,7 +7,7 @@
    "createdBy": "f1727316-45bc-484f-b616-d45f015506c7",
    "createdOn": "2021-04-29T06:06:22.951477Z",
    "updatedBy": "f1727316-45bc-484f-b616-d45f015506c7",
-   "updatedOn": "2021-06-25T03:55:12.2040075Z"
+   "updatedOn": "2021-06-28T03:13:25.5666429Z"
   },
   "parameters": {
    "SNOWReference": {
@@ -115,6 +115,18 @@
    {
     "policyDefinitionReferenceId": "Microsoft Managed Control 1372 - Incident Reporting_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/25b96717-c912-4c00-9143-4e487f411726",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Flow logs should be enabled for every network security group_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/27960feb-a23c-4577-8d36-ef8b5f35e0be",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Denies NSG rule changes that allow all inbound traffic_1",
+    "policyDefinitionId": "/subscriptions/b1b7d691-79cc-414b-9101-d6a103a22ada/providers/Microsoft.Authorization/policyDefinitions/b03b20a1-6161-45fb-9c20-2646df753621",
     "parameters": {},
     "groupNames": []
    }
